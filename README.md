@@ -82,7 +82,7 @@ and resize that negative volume on its own.
 ## Tested with
 
 **A case for the [Ekoparty Badge 2026](https://marsfactory.github.io/ekoparty-badge-2026/),
-with six plates** (four variants of the frame, a back cover and a front
+designed by VøID ([@vrv01d](https://www.instagram.com/vrv01d/)), with six plates** (four variants of the frame, a back cover and a front
 protector). Each frame has 7 model parts and up to 11 negative parts, two of
 them mirrored. All six plates load and slice in PrusaSlicer 2.8. I checked
 the result against Bambu Studio by slicing the original from its command line
@@ -144,8 +144,8 @@ python3 bambu2prusa.py "Mi proyecto.3mf" --scale 85%
 ```
 
 **Está poco probado:** funcionó con dos proyectos reales: una carcasa de seis
-placas para el [Ekoparty Badge 2026](https://marsfactory.github.io/ekoparty-badge-2026/#creditos)
-(el crédito del badge es de su equipo y de la comunidad
+placas para el [Ekoparty Badge 2026](https://marsfactory.github.io/ekoparty-badge-2026/#creditos),
+diseñada por VøID ([@vrv01d](https://www.instagram.com/vrv01d/)) (el crédito del badge es de su equipo y de la comunidad
 [Meshtastic Argentina](https://github.com/Meshtastic-Argentina)) y una pantalla
 de lámpara. Revisá el resultado en PrusaSlicer antes de
 imprimir, y si algo falla, abrí un issue con el 3MF.
