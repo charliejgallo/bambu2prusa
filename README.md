@@ -81,9 +81,10 @@ and resize that negative volume on its own.
 
 ## Tested with
 
-**A badge case with six plates** (four variants of the frame, a back cover and a
-front protector). Each frame has 7 model parts and up to 11 negative parts, two
-of them mirrored. All six plates load and slice in PrusaSlicer 2.8. I checked
+**A case for the [Ekoparty Badge 2026](https://marsfactory.github.io/ekoparty-badge-2026/),
+with six plates** (four variants of the frame, a back cover and a front
+protector). Each frame has 7 model parts and up to 11 negative parts, two of
+them mirrored. All six plates load and slice in PrusaSlicer 2.8. I checked
 the result against Bambu Studio by slicing the original from its command line
 and comparing the two G-codes from above: same outline, same open frame, same
 screw bosses. With the negative parts turned into solids, the frame would need
@@ -92,6 +93,14 @@ screw bosses. With the negative parts turned into solids, the frame would need
 <p align="center">
   <img src="docs/ekobadge-sliced.png" width="860" alt="The same case sliced and opened in PrusaSlicer's G-code viewer: an open frame with screw bosses, the antenna slot and the inner ledge, plus small organic supports at two corners.">
 </p>
+
+Credit for the badge goes to the people who built it: Lucas Leal (hardware
+design), Nicolas Restbergs / [Fábrica Marciana](https://fabricamarciana.com/)
+(visual identity and firmware adaptation) and Jorge Crowe /
+[Monstruo Midi](https://www.jcrowe.xyz/) (concept and coordination). See the
+[badge's credits](https://marsfactory.github.io/ekoparty-badge-2026/#creditos).
+Thanks also to the [Meshtastic Argentina](https://github.com/Meshtastic-Argentina)
+community.
 
 **A spiral lamp shade** ("Aura Wave", from Lamp Shade 4.0 by JANBERRY): 2.1
 million triangles, with a negative cylinder for the lamp-holder hole and a
@@ -134,8 +143,11 @@ conserva las partes negativas, los modificadores y los ajustes de diseño
 python3 bambu2prusa.py "Mi proyecto.3mf" --scale 85%
 ```
 
-**Está poco probado:** funcionó con dos proyectos reales (una carcasa de seis
-placas y una pantalla de lámpara). Revisá el resultado en PrusaSlicer antes de
+**Está poco probado:** funcionó con dos proyectos reales: una carcasa de seis
+placas para el [Ekoparty Badge 2026](https://marsfactory.github.io/ekoparty-badge-2026/#creditos)
+(el crédito del badge es de su equipo y de la comunidad
+[Meshtastic Argentina](https://github.com/Meshtastic-Argentina)) y una pantalla
+de lámpara. Revisá el resultado en PrusaSlicer antes de
 imprimir, y si algo falla, abrí un issue con el 3MF.
 
 ## License
